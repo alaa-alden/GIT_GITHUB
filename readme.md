@@ -41,3 +41,5 @@ modified --> staging --> committed
     \\ show all changing but not explain :
       git log --oneline
 #the seventh tutorial :
+    \\ back or front your update app by :
+      git checkout number-update */or name ex : master/*
