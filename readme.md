@@ -47,3 +47,15 @@ modified --> staging --> committed
       git revert number-update */or name ex : master/*  wq
     \\remove all update after this   number-update */or name ex : master/* :
     git reset number-update */or name /* */ --hard/*
+
+
+#the eighth tutorial :
+  \\create new branch :
+    git branch name
+    **/or git checkout -b name /**
+  \\show all branch :
+  git branch -a
+  \\ select branch :
+  git checkout name-branch
+  \\ delete branch :
+  git branch -D name
