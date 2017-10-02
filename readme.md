@@ -32,4 +32,12 @@ modified --> staging --> committed
   git rm --cached file.*
 
 
-#the fifth  :
+#the sixth tutorial  :
+  \\ convert staging to commit :
+    git commit -m "message"
+
+  \\ show all changing of commit and all explain
+    git log
+    \\ show all changing but not explain :
+      git log --oneline
+#the seventh tutorial :
