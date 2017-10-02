@@ -41,12 +41,21 @@ modified --> staging --> committed
     \\ show all changing but not explain :
       git log --oneline
 #the seventh tutorial :
+<<<<<<< HEAD
   \\ back or front your update app by :
     git checkout number-update */or name ex : master/*
   \\where update of your app :
     git revert number-update */or name ex : master/*  wq
   \\remove all update after this   number-update */or name ex : master/* :
   git reset number-update */or name /* */ --hard/*
+=======
+    \\ back or front your update app by :
+      git checkout number-update */or name ex : master/*
+    \\where update of your app :
+      git revert number-update */or name ex : master/*  wq
+    \\remove all update after this   number-update */or name ex : master/* :
+    git reset number-update */or name /* */ --hard/*
+>>>>>>> winner
 
 
 #the eighth tutorial :
@@ -59,3 +68,11 @@ modified --> staging --> committed
   git checkout name-branch
   \\ delete branch :
   git branch -D name
+<<<<<<< HEAD
+=======
+
+
+#the ninth tutorial :
+\\ merge two branch s  when you in first branch:
+git merge name-branch
+>>>>>>> winner
