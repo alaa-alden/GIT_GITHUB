@@ -16,10 +16,10 @@ git config --global user.email .... // empty for query
 
 \\remove folder :rmdir folder
 
-#the third tutorial:
+#the fourth tutorial:
 git intit
 
-#the fourth tutorial :
+#the fifth tutorial :
 modified --> staging --> committed
 \\ what statue all file and folder in App ??? :
   git status
@@ -30,3 +30,6 @@ modified --> staging --> committed
 
 \\ remove file from staging :
   git rm --cached file.*
+
+
+#the fifth  :
