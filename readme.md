@@ -43,3 +43,7 @@ modified --> staging --> committed
 #the seventh tutorial :
     \\ back or front your update app by :
       git checkout number-update */or name ex : master/*
+    \\where update of your app :
+      git revert number-update */or name ex : master/*  wq
+    \\remove all update after this   number-update */or name ex : master/* :
+    git reset number-update */or name /* */ --hard/*
