@@ -59,3 +59,8 @@ modified --> staging --> committed
   git checkout name-branch
   \\ delete branch :
   git branch -D name
+
+
+#the ninth tutorial :
+\\ merge two branch s  when you in first branch:
+git merge name-branch
