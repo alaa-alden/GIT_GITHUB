@@ -32,22 +32,23 @@
 
 # the fifth tutorial :
 
-  **modified --> staging --> committed**
+**modified --> staging --> committed**
   
-  **what statue all file and folder in App ??? :**
+**what statue all file and folder in App ??? :**
   
-    ```git status```
+```git status```
     
-  **convert file from modified to staging area :**
+**convert file from modified to staging area :**
   
-    ```git add file.*```
-    *OR for all files*
-    
-     ``` git add .```
+ ```git add file.*```
+ 
+ *OR for all files*
+  
+  ``` git add .```
 
-  **remove file from staging :**
-  
-  ```git rm --cached file.*```
+**remove file from staging :**
+
+```git rm --cached file.*```
   
   ---
   
