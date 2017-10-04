@@ -50,7 +50,7 @@
 
 ```git rm --cached file.*```
   
-  ---
+---
   
 # the sixth tutorial  :
 
@@ -66,7 +66,7 @@
    
 ```git log --oneline```
       
-      ---
+---
       
 # the seventh tutorial :
 
