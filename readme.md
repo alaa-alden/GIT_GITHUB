@@ -32,7 +32,7 @@
 
 # the fifth tutorial :
 
-## modified --> staging --> committed
+### modified --> staging --> committed
   
 **what statue all file and folder in App ??? :**
   
