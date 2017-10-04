@@ -1,6 +1,6 @@
 # the first tutorial :
 
- ** git is reversion control system , a tool manage your source code history**
+ **git is reversion control system , a tool manage your source code history**
   
   **git-hub is a hosting service for git repositories**
   
@@ -53,13 +53,14 @@
   
 # the sixth tutorial  :
 
-  ** convert staging to commit :**
+  **convert staging to commit :**
   
     ```git commit -m "message"```
 
- **  show all changing of commit and all explain**
+ **show all changing of commit and all explain**
  
     ```git log```
+    
    **show all changing but not explain :**
    
       ```git log --oneline```
@@ -68,44 +69,86 @@
       
 # the seventh tutorial :
 
-  ** back or front your update app by :**
-    ```git checkout number-update``` *or name ex : master*
-  **where update of your app :**
-    ```git revert number-update ``` *or name ex : master* and`wq`
-  remove all update after this   number-update //or name ex : master :
-    git reset number-update //or name //--hard
-  back or front your update app by :
-      git checkout number-update //or name ex : master/*
-  where update of your app :
+  **back or front your update app by :**
   
-      git revert number-update //or name ex : master  //wq
-      
-  **remove all update after this   number-update //or name ex : master :**
-  
-    ```git reset number-update``` *or name -and->* `--hard`
+    ```git checkout number-update``` *or* **name** ex : master
     
-    ---
+  **where update of your app :**
+  
+    ```git revert number-update ``` *or* **name** ex : master *and* `wq`
+    
+  **remove all update after this number-update** *or* **name** ex : master *by*:
+  
+    ```git reset number-update``` *or* **name** *-and->*`--hard`
+    
+  **back or front your update app by :**
+  
+   ``` git checkout number-update ```*or* **name** ex : master *by* :
+   
+  **where update of your app :**
+  
+     ```git revert number-update ```*or* **name** ex : master *-and->*`wq`
+     
+  **remove all update after this number-update** *or* **name** ex : master **by:**
+  
+    ```git reset number-update``` *or* **name** *-and->* `--hard`
+    
+  ---
     
 # the eighth tutorial :
-  \\create new branch :
-    git branch name
-    **/or git checkout -b name /**
-  \\show all branch :
-  git branch -a
-  \\ select branch :
-  git checkout name-branch
-  \\ delete branch :
-  git branch -D name
 
+  **create new branch :**
+  
+    ```git branch name```
+    
+    *or* **create branch adn checkout**
+    
+    ```git checkout -b name-branch```
+    
+  **show all branch :**
+  
+  ```git branch -a```
+  
+  **select branch :**
+  
+  ```git checkout name-branch```
+  
+  **delete branch :**
+  
+  ```git branch -D name-branch```
+---
 
 # the ninth tutorial :
-\\merge two branch s  when you in first branch:
-git merge name-branch
+
+**merge two branch s  when you in first branch:**
+
+```git merge name-branch```
+
+---
+
 # the tenth tutorial :
-  1.  create repo in git-hub
-  2.  push to : git push url what_branch  replace url by name_url
-   name for url : git remote add origin for default
-     show all remote by : git remote -v
-  3. and for all update by it push name name-branch
-  4. for download repo from guthub : git clone url
+  1.  **create repo in git-hub**
+  2.  **push to :** ```git push url what_branch```  **replace url by name_url by used :**
+  
+  **name for url :** ```git remote add origin ```**for default**
+  
+  **show all remote by :** ```git remote -v```
+  
+  3. **and for all update by it push name name-branch**
+  4. **for download repo from guthub :** ```git clone url```
+  
+  ----
+  
 # the eleventh tutorial:
+
+**update all folder but not save so need save:**
+
+  ```git pull URL name-branch```
+  
+**and update server-side compare with branch then merge**
+
+---
+# the twelfth tutorial:
+
+**fork is upload app from any count in git-hub**
+
