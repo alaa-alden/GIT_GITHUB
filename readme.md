@@ -8,17 +8,17 @@
 
 # the second tutorial :
 
-  ```git --version```
+ ```git --version```
+ 
+ ``` git config --global user.name ``` .... *empty for query*
   
-  ``` git config --global user.name ``` .... *empty for query*
+ ```git config --global user.email``` .... *empty for query*
   
-  ```git config --global user.email``` .... *empty for query*
+ **make file :** ```touch file.*```
   
-  **make file :** ```touch file.*```
+ **open file by program:** ```program file.*```
   
-  **open file by program:** ```program file.*```
-  
-  **remove folder :** ```rmdir folder```
+ **remove folder :** ```rmdir folder```
   
 ---
 
@@ -26,7 +26,7 @@
 
 **go with project with git :**
 
-  ```git intit```
+ ```git intit```
   
 ---
 
@@ -40,11 +40,11 @@
     
 **convert file from modified to staging area :**
   
- ```git add file.*```
+```git add file.*```
  
  *OR for all files*
   
-  ``` git add .```
+``` git add .```
 
 **remove file from staging :**
 
@@ -54,69 +54,70 @@
   
 # the sixth tutorial  :
 
-  **convert staging to commit :**
+**convert staging to commit :**
   
-    ```git commit -m "message"```
+```git commit -m "message"```
 
- **show all changing of commit and all explain**
+**show all changing of commit and all explain**
  
-    ```git log```
+```git log```
     
-   **show all changing but not explain :**
+**show all changing but not explain :**
    
-      ```git log --oneline```
+```git log --oneline```
       
       ---
       
 # the seventh tutorial :
 
-  **back or front your update app by :**
+**back or front your update app by :**
   
-    ```git checkout number-update``` *or* **name** ex : master
+```git checkout number-update``` *or* **name** ex : master
     
-  **where update of your app :**
+**where update of your app :**
   
-    ```git revert number-update ``` *or* **name** ex : master *and* `wq`
+```git revert number-update ``` *or* **name** ex : master *and* `wq`
     
-  **remove all update after this number-update** *or* **name** ex : master *by*:
+**remove all update after this number-update** *or* **name** ex : master *by*:
   
-    ```git reset number-update``` *or* **name** *-and->*`--hard`
+```git reset number-update``` *or* **name** *-and->*`--hard`
     
-  **back or front your update app by :**
+**back or front your update app by :**
   
-   ``` git checkout number-update ```*or* **name** ex : master *by* :
+``` git checkout number-update ```*or* **name** ex : master *by* :
    
-  **where update of your app :**
+**where update of your app :**
   
-     ```git revert number-update ```*or* **name** ex : master *-and->*`wq`
+```git revert number-update ```*or* **name** ex : master *-and->*`wq`
      
-  **remove all update after this number-update** *or* **name** ex : master **by:**
+**remove all update after this number-update** *or* **name** ex : master **by:**
   
-    ```git reset number-update``` *or* **name** *-and->* `--hard`
+```git reset number-update``` *or* **name** *-and->* `--hard`
     
   ---
     
 # the eighth tutorial :
 
-  **create new branch :**
+**create new branch :**
   
-    ```git branch name```
+```git branch name```
     
-    *or* **create branch adn checkout**
+*or* **create branch adn checkout**
     
-    ```git checkout -b name-branch```
+```git checkout -b name-branch```
     
-  **show all branch :**
+**show all branch :**
+
+```git branch -a```
   
-  ```git branch -a```
+**select branch :**
   
-  **select branch :**
+```git checkout name-branch```
   
-  ```git checkout name-branch```
+**delete branch :**
   
-  **delete branch :**
-  
-  ```git branch -D name-branch```
+```git branch -D name-branch```
+
 ---
 
 # the ninth tutorial :
