@@ -40,28 +40,20 @@ modified --> staging --> committed
     git log
     \\ show all changing but not explain :
       git log --oneline
-<<<<<<< HEAD
 #the seventh tutorial :
-<<<<<<< HEAD
+
   \\ back or front your update app by :
-    git checkout number-update */or name ex : master/*
+    git checkout number-update //or name ex : master
   \\where update of your app :
-    git revert number-update */or name ex : master/*  wq
-  \\remove all update after this   number-update */or name ex : master/* :
-  git reset number-update */or name /* */ --hard/*
-=======
-=======
-# the seventh tutorial :
->>>>>>> winner
+    git revert number-update //or name ex : master // wq
+  \\remove all update after this   number-update //or name ex : master :
+  git reset number-update //or name //--hard
     \\ back or front your update app by :
-      git checkout number-update */or name ex : master/*
+      git checkout number-update //or name ex : master/*
     \\where update of your app :
-      git revert number-update */or name ex : master/*  wq
-    \\remove all update after this   number-update */or name ex : master/* :
-    git reset number-update */or name /* */ --hard/*
->>>>>>> winner
-
-
+      git revert number-update //or name ex : master  //wq
+    \\remove all update after this   number-update //or name ex : master :
+    git reset number-update //or name--hard
 # the eighth tutorial :
   \\create new branch :
     git branch name
@@ -72,17 +64,11 @@ modified --> staging --> committed
   git checkout name-branch
   \\ delete branch :
   git branch -D name
-<<<<<<< HEAD
-=======
 
 
 # the ninth tutorial :
 \\ merge two branch s  when you in first branch:
 git merge name-branch
-<<<<<<< HEAD
->>>>>>> winner
-=======
-
 # the tenth tutorial :
   1.  create repo in git-hub
   2.  push to : git push url what_branch \\ replace url by name_url
@@ -91,5 +77,3 @@ git merge name-branch
   3. and for all update by it push name name-branch
   4. for download repo from guthub : git clone url
 # the eleventh tutorial:
-  1. update from git-hub : git pull URL master \\or name-branch
->>>>>>> winner
