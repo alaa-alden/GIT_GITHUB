@@ -64,3 +64,11 @@ modified --> staging --> committed
 #the ninth tutorial :
 \\ merge two branch s  when you in first branch:
 git merge name-branch
+
+#the tenth tutorial :
+  1.  create repo in git-hub
+  2.  push to : git push url what_branch \\ replace url by name_url
+  \\ name for url : git remote add origin //for default
+      \\ show all remote by : git remote -v
+  3. and for all update by it push name name-branch
+  4. for download repo from guthub : git clone url
