@@ -10,9 +10,9 @@
 
   ```git --version```
   
-  ``` git config --global user.name ``` .... `empty for query`
+  ``` git config --global user.name ``` .... *empty for query*
   
-  ```git config --global user.email``` .... ` empty for query`
+  ```git config --global user.email``` .... *empty for query*
   
   **make file :** ```touch file.*```
   
@@ -26,41 +26,66 @@
 
 **go with project with git :**
 
-  git intit
+  ```git intit```
+  
+---
 
 # the fifth tutorial :
-  modified --> staging --> committed
-  what statue all file and folder in App ??? :
-    git status
-  convert file from modified to staging area :
-    git add file.*
+
+  **modified --> staging --> committed**
+  
+  **what statue all file and folder in App ??? :**
+  
+    ```git status```
+    
+  **convert file from modified to staging area :**
+  
+    ```git add file.*```
     *OR for all files*
-      git add .
+    
+     ``` git add .```
 
-  remove file from staging :
-    git rm --cached file.*
+  **remove file from staging :**
+  
+  ```git rm --cached file.*```
+  
+  ---
+  
 # the sixth tutorial  :
-   convert staging to commit :
-    git commit -m "message"
 
-   show all changing of commit and all explain
-    git log
-   show all changing but not explain :
-      git log --oneline
-#the seventh tutorial :
+  ** convert staging to commit :**
+  
+    ```git commit -m "message"```
 
-   back or front your update app by :
-    git checkout number-update //or name ex : master
-  where update of your app :
-    git revert number-update //or name ex : master // wq
+ **  show all changing of commit and all explain**
+ 
+    ```git log```
+   **show all changing but not explain :**
+   
+      ```git log --oneline```
+      
+      ---
+      
+# the seventh tutorial :
+
+  ** back or front your update app by :**
+    ```git checkout number-update``` *or name ex : master*
+  **where update of your app :**
+    ```git revert number-update ``` *or name ex : master* and`wq`
   remove all update after this   number-update //or name ex : master :
     git reset number-update //or name //--hard
   back or front your update app by :
       git checkout number-update //or name ex : master/*
   where update of your app :
+  
       git revert number-update //or name ex : master  //wq
-  remove all update after this   number-update //or name ex : master :
-    git reset number-update //or name--hard
+      
+  **remove all update after this   number-update //or name ex : master :**
+  
+    ```git reset number-update``` *or name -and->* `--hard`
+    
+    ---
+    
 # the eighth tutorial :
   \\create new branch :
     git branch name
