@@ -1,19 +1,31 @@
 # the first tutorial :
 
-  git is reversion control system , a tool manage your source code history
-  git-hub is a hosting service for git repositories
+ ** git is reversion control system , a tool manage your source code history**
+  
+  **git-hub is a hosting service for git repositories**
+  
+---
 
 # the second tutorial :
 
-  git --version
-  git config --global user.name .... // empty for query
-  git config --global user.email .... // empty for query
-  make file : touch file.*
-  open file by program : program file.*
-  remove folder : rmdir folder
+  ```git --version```
+  
+  ``` git config --global user.name ``` .... `empty for query`
+  
+  ```git config --global user.email``` .... ` empty for query`
+  
+  **make file :** ```touch file.*```
+  
+  **open file by program:** ```program file.*```
+  
+  **remove folder :** ```rmdir folder```
+  
+---
 
 # the fourth tutorial:
-go with project with git :
+
+**go with project with git :**
+
   git intit
 
 # the fifth tutorial :
