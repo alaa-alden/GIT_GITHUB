@@ -154,3 +154,7 @@
 
 **fork is upload app from any count in git-hub**
 
+# note :
+1- `git log` for show all commit of branch
+2- `git branch -D <name-branch>` for delete branch
+3- `git merge <name-branch-source>`  merge for current branch
