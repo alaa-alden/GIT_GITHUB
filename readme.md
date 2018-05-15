@@ -160,3 +160,5 @@
 1. `git log` for show all commit of branch
 2. `git branch -D <name-branch>` for delete branch
 3. `git merge <name-branch-source>`  merge for current branch
+4. `git rm file.?` for delete file both local and repository
+5. `git rm --cached file.?` for delete only repository
