@@ -74,26 +74,14 @@
   
 ```git checkout number-update``` *or* **name** ex : master
     
-**where update of your app :**
+**where update of your app by delete  fills or folder or code of a commit of a branch but not delete commit :**
   
 ```git revert number-update ``` *or* **name** ex : master *and* `wq`
     
-**remove all update after this number-update** *or* **name** ex : master *by*:
+**remove a commit of a branch** *or* **name** ex : master *by*:
   
 ```git reset number-update``` *or* **name** *-and->*`--hard`
-    
-**back or front your update app by :**
-  
-``` git checkout number-update ```*or* **name** ex : master *by* :
-   
-**where update of your app :**
-  
-```git revert number-update ```*or* **name** ex : master *-and->*`wq`
-     
-**remove all update after this number-update** *or* **name** ex : master **by:**
-  
-```git reset number-update``` *or* **name** *-and->* `--hard`
-    
+
   ---
     
 # the eighth tutorial :
