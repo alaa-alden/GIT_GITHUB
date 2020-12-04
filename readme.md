@@ -153,4 +153,4 @@
 6. `git push <remote_name> --delete <branch_name>` to remove branch on the server only
 7. `git switch another_branch` to move to another an exsit
 8. `git switch -c new_branch` to create and move to it
-9. `git bran
+9. `git branch new_branch` to create with switch to it
