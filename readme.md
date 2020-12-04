@@ -154,3 +154,4 @@
 7. `git switch another_branch` to move to another an exsit
 8. `git switch -c new_branch` to create and move to it
 9. `git branch new_branch` to create with switch to it
+10. `git branch -m <new-name>` to replace old name of a branch to new one
