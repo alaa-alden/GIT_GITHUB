@@ -155,3 +155,4 @@
 8. `git switch -c new_branch` to create and move to it
 9. `git branch new_branch` to create with switch to it
 10. `git branch -m <new-name>` to replace old name of a branch to new one
+11. `git push origin --delete <branch>` to delete branch in global
